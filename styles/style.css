@@ -230,9 +230,6 @@
     --main-content-vertical-padding: 60px;
     --sections-gap: 80px;
   }
-  .header__title {
-    padding-top: 5px;
-  }
 
   .section__title {
     max-width: 215px;
@@ -252,6 +249,7 @@
   }
 
   .header__title {
+    padding-top: 5px;
     justify-self: left;
     margin-inline-start: calc(-1 * var(--main-padding));
   }

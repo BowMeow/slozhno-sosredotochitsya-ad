@@ -162,7 +162,7 @@
   line-height: var(--main-line-height);
 }
 
-.section__text{
+.section__text {
   display: inline;
   height: min-content;
 }

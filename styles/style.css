@@ -162,6 +162,10 @@
   line-height: var(--main-line-height);
 }
 
+.section-pictures .section__title {
+  background-color: var(--accent-color);
+}
+
 .section__text {
   display: inline;
   height: min-content;
@@ -226,6 +230,13 @@
     --main-content-vertical-padding: 60px;
     --sections-gap: 80px;
   }
+  .header__title {
+    padding-top: 5px;
+  }
+
+  .section__title {
+    max-width: 215px;
+  }
 
   .first-section,
   .third-section {
@@ -275,6 +286,10 @@
   .second-section .list {
     grid-template-columns: repeat(3, 1fr);
     align-items: start
+  }
+
+   .section__title {
+    max-width: 315px;
   }
 
   .first-section,
